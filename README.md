@@ -21,25 +21,25 @@ The user have to register on the app to use all the functionalities. The functio
 
 ### Use Cases
  
-![Use Cases](./use-cases.png)
+![Use Cases](./tennis-doc/use-cases.png)
 
 ### Flow
 
-![Flow](./flow-chart.png)
+![Flow](./tennis-doc/flow-chart.png)
 
 ## Technical Description
 
 ### Blocks
 
-![Blocks](./block-diagram.png)
+![Blocks](./tennis-doc/block-diagram.png)
 
 ### Data Model
 
-![Data Model](./data-model.png)
+![Data Model](./tennis-doc/data-model.png)
 
 ### API code coverage
 
-![code-coverage](./code-coverage.png)
+![code-coverage](./tennis-doc/code-coverage.png)
 
 ### Trello
 
