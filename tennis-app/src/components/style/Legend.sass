@@ -1,0 +1,35 @@
+@mixin legend-style 
+    height: 1rem
+    width: 1rem
+    box-shadow: 0 4px #999
+    margin: 1rem 0.2rem 1rem 0.8rem
+    border-radius: 50%
+
+.legend
+    margin-top: 0.5rem
+    display: flex
+    font-family: 'Lato', sans-serif
+    font-size: 0.8rem
+
+    &_court
+        display: flex
+        align-items: center
+
+    &_clay
+        //background-color: #B36C17
+        background-color: #000000
+        @include legend-style
+        
+    &_hard
+        // background-color: #601cff
+        background-color: #ffffff
+        @include legend-style
+        
+    &_available
+        background-color:  #29F4EB
+        @include legend-style
+        
+    &_reserved
+        background-color: #ff0000
+        @include legend-style
+        

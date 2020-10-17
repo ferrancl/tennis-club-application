@@ -1,0 +1,85 @@
+@mixin button-style 
+    margin: 0.4rem
+    display: inline-block
+    font-family: 'Lato', sans-serif
+    padding: 0.3rem 0.6rem
+    font-size: 0.8rem
+    cursor: pointer
+    text-align: center
+    text-decoration: none
+    outline: none
+    border: none
+    border-radius: 15px
+    box-shadow: 0 5px #5D5A57   
+
+    
+.friends
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 100%
+
+    &_list
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        width: 100%
+
+
+    &_title
+        font-family: 'Lato', sans-serif
+        font-size: 1.2rem
+        margin-top: 3rem
+        margin-bottom: 2rem
+        border-radius: 0.4rem
+        padding: 0.3rem
+        background-color: rgba(255, 255, 255, 0.99) 
+        box-shadow: 0 4px #999
+
+    &_friend
+        display: flex
+        width: 85%
+        align-items: center
+        justify-content: space-between
+        padding: 0.25rem
+        margin-bottom:  0.25rem
+        background-color: #ffffff
+        border-radius: 0.25rem
+
+    &_text
+        font-family: 'Lato', sans-serif
+        font-size: 1rem
+    
+    &_button
+        @include button-style
+        color: #fff
+        background-color: #ff1414
+        
+    &_decline
+        @include button-style
+        color: #fff
+        background-color: #000000
+
+    &_noItem
+        display: flex
+        font-family: 'Lato', sans-serif
+        font-size: 0.9rem
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        margin-top: 1rem
+        border-radius: 0.4rem
+        padding: 0.5rem
+        color: white
+        background-color: #000000
+
+
+
+
+
+
+
+
+

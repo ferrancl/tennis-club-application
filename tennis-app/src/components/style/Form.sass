@@ -1,0 +1,154 @@
+@mixin button-style 
+    margin: 1rem
+    display: inline-block
+    font-family: 'Lato', sans-serif
+    padding: 0.7rem 0.9rem
+    font-size: 1.1rem
+    cursor: pointer
+    text-align: center
+    text-decoration: none
+    outline: none
+    border: none
+    border-radius: 15px
+    box-shadow: 0 5px #5D5A57   
+    
+.form
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    width: 100%
+
+    &_title
+        font-family: 'Lato', sans-serif
+        font-size: 1.2rem
+        margin-top: 3rem
+        margin-bottom: 2rem
+        border-radius: 0.4rem
+        padding: 0.3rem
+        background-color: rgba(255, 255, 255, 0.99) 
+        box-shadow: 0 4px #999
+
+    &_anchor
+        color: #f8ff98
+        margin-top: 2rem
+        font-size: 1rem
+        font-family: 'Lato', sans-serif
+
+    &_select
+        background-color: #ffffff
+        font-family: 'Lato', sans-serif
+        outline: none
+        width: 70%
+        margin: 0.50rem 0
+        font-size: 1rem
+        padding: 0.2rem
+        border-radius: 0.5rem
+        text-align: center
+        text-align-last: center
+
+    &_label
+        font-family: 'Lato', sans-serif
+        font-size: 1.4rem
+        margin-top: 1rem
+
+
+  
+    &_nobookings
+        display: flex
+        font-family: 'Lato', sans-serif
+        font-size: 1.3rem
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        margin-top: 2rem
+        border-radius: 0.4rem
+        width: 55%
+        padding: 0.5rem
+        background-image: linear-gradient(to right, #ffffff , #faa5a5)
+
+    &_quick
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        font-family: 'Lato', sans-serif
+
+        &_p
+            margin-top: 1rem
+            font-size: 1.5rem
+        &_span
+            font-size: 1.5rem
+            color: #ffffff
+
+    
+    &_mybooks
+        margin-top: 1rem
+
+    &_input
+        align-content: center
+        font-size: 1rem
+        font-family: 'Lato', sans-serif
+        border-radius: 0.5rem
+        width: 72%
+        margin: 0.50rem 0
+        padding: 0.4rem
+        outline: none
+        border: 1px solid rgba(105, 105, 105, 0.99)
+
+    &_button
+        @include button-style
+        color: #fff
+        background-color: #ff1414
+
+    &_button:hover
+        background-color: #ff5d5d
+
+    &_button:active 
+        background-color: #ff5d5d
+        box-shadow: 0 5px #666
+        transform: translateY(4px)
+
+.date
+    font-size: 1.2rem
+    font-family: 'Lato', sans-serif
+    margin: 0.5rem 0
+
+
+.search
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.doBook
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+
+.hidden
+    display: none
+        
+
+.table
+    display: flex
+    align-items: center
+    flex-direction: column
+.dayWeather
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 10vh
+
+    &_day
+        width: 70%
+        background-color: #ffffff
+        font-size: 1rem
+        padding: 0.2rem
+        border-radius: 0.5rem
+        text-align-last: center
+        margin-right: 1rem
+
+.weather
+    max-height: 75px
+    max-width: 75px

@@ -1,0 +1,68 @@
+@mixin table-style 
+    border-radius: 0.3rem
+    box-shadow: 0 4px #999
+
+.green
+    &_odd
+        background-color: #08e0d6
+        border: 1px solid  #005804
+        @include table-style
+        
+    &_couple
+        background-color: #A5FFFB
+        border: 1px solid  #005804
+        @include table-style
+        
+.red
+    background-color: #ff0000
+    border: 1px solid #a10000
+    @include table-style
+    
+.gray
+    &_odd
+        background-color: #636363
+        border: 1px solid  #383838
+        @include table-style
+    
+    &_couple
+        background-color: #888888
+        border: 1px solid  #383838
+        @include table-style
+        
+.clay
+    color: white
+    font-family: 'Lato', sans-serif
+    background-color: #000000
+    border: 1px solid  #ffffff
+    @include table-style
+    
+.hard
+    background-color: #ffffff
+    border: 1px solid 
+    font-family: 'Lato', sans-serif
+    @include table-style
+    
+.tg  
+    text-align: center
+    table-layout: fixed
+    width: 95%
+    border-collapse: separate
+    border-spacing: 0.14rem
+    
+.hour
+    background-color: #3a4102
+    color: white
+    font-family: 'Lato', sans-serif
+    @include table-style
+    
+    &_title
+        font-family: 'Lato', sans-serif
+        background-color: #5a5a5a
+        color: #ffffff
+        border-radius: 0.3rem
+        letter-spacing: 0.5rem
+
+td
+    width: 0.5rem
+    font-family: 'Lato', sans-serif
+
